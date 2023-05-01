@@ -30,4 +30,5 @@ To workaround this issue, try one of the following options:
 
 Another example is if you want to associate different page hits with specific Campaigns. Let's say you have Campaign A and Campaign B. You want to use the same base URL and path for both Campaigns but differentiate with a query parameter.  For Campaign A, you can define a Visits a Page decision with `https://example.com/my-page?utm_campaign=A*` and for Campaign B, `https://example.com/my-page?utm_campaign=B*`. A Contact will only trigger the specific Campaign desired. If the goal is to trigger both Campaigns regardless of the query parameters, use `https://example.com/my-page*`.
 
+
 [url]: <https://en.wikipedia.org/wiki/Uniform_Resource_Locator>
